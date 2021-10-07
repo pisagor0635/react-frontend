@@ -10,7 +10,8 @@ i18n.use(initReactI18next).init({
                 'Username': 'Username',
                 'Display Name': 'Display Name',
                 'Password': 'Password',
-                'Password Repeat': 'Password Repeat'
+                'Password Repeat': 'Password Repeat',
+                'Login': 'Login'
             }
         },
         tr: {
@@ -20,11 +21,12 @@ i18n.use(initReactI18next).init({
                 'Username': 'Kullanici Adi',
                 'Display Name': 'Gorunen Isim',
                 'Password': 'Sifre',
-                'Password Repeat': 'Sifre Tekrar'
+                'Password Repeat': 'Sifre Tekrar',
+                'Login': 'Sisteme Gir'
             }
         }
     },
-    fallbackLng: 'tr',
+    fallbackLng: 'en',
     ns: ['translation'],
     defaultNS: 'translations',
     keySeparator: false,

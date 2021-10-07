@@ -54,7 +54,6 @@ class UserSignupPage extends React.Component {
         }
         this.setState({pendingApiCall: false});
     }
-
     render() {
         const {t} = this.props;
         const {pendingApiCall, errors} = this.state;
